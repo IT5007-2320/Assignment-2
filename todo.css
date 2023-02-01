@@ -1,0 +1,96 @@
+/* Basic CSS styling has been provided to you.
+ * For Q6, try to enhance this CSS.
+ */
+body
+{
+    background-color: cornsilk;
+    height:100%;
+}
+h1 {
+    color: brown;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+
+nav ul li {
+    float: left;   
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: green;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+#home {
+    height:100%;
+}
+
+#add {
+    height:100%;
+}
+
+#finish {
+    height:100%;
+}
+
+#display {
+    height:100%;
+}
+
+table {
+    margin: 1%;
+    padding: 0;
+    border: 0;
+    width: 25%;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+}
+
+thead {
+    color: white;
+    background-color:purple;
+}
+
+tbody {
+    overflow: hidden;
+    color: purple;
+    text-align: center;
+    margin: 10px;
+    background-color:white;
+}
+
+thead th {
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+td {
+    color: purple;
+    background-color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
